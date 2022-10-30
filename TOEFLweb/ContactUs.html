@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TOEFL WEBSITE</title>
+    <link rel="stylesheet" href="cnct.css" />
+    <script src="cnct.js"></script>
+  </head>
+  <body style="background-color: #e0ecdc">
+    <div class="cnct-img">
+      <div class="navbar">
+        <div class="navgreen" style="opacity: 0.9">
+          <div style="nav-div-bold">
+            <div class="spacing-div">
+              <img
+                class="toefel-logo"
+                src="https://cdn.glitch.global/a13a661f-d916-4ece-a47e-bf732bcf8bed/TOEFL-removebg-preview.png?v=1665622443756"
+              />
+              <div class="nav-div-spacing">
+                  <div class="nav-small-div-spacing nav-divv-bold">
+                      <a href="abtUs.html">About us</a>
+                  </div>
+                  <div style="margin: 0px 30px 0px 15px">
+                      <div href="#" class="dropdown">
+                          <button class="dropbtn nav-divv-bold">
+                              Courses
+                              <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                              <a href="genEng.html" class="nav-divv-bold">General English</a>
+                              <a href="toefl.html" class="nav-divv-bold">TOEFL</a>
+                              <a href="ielts.html" class="nav-divv-bold">IELTS</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="dropdown">
+                          <button class="dropbtn nav-divv-bold">
+                              Exams
+                              <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                              <a href="#TOEFL-Exam" class="nav-divv-bold">TOEFL Exam</a>
+                              <a href="#IELTS-Exam" class="nav-divv-bold">IELTS Exam</a>
+                              <a href="#General-English-exam" class="nav-divv-bold">General English exam</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="nav-small-div-spacing nav-divv-bold">
+                      <a href="ContactUs.html">Contact us</a>
+                  </div>
+                  <div class="geo-eng" style="display:flex; flex-direction:column; height: 100%:">
+                      <div style="font-size: 15px;">
+                          <button onclick="geoTxt()">GEO</button>
+                      </div>
+                      <div style="font-size: 15px;">
+                          <button onclick="engTxt()">ENG</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fcf-main-div">
+     <div class="fcf-body">
+      <div id="fcf-form">
+        <h3 id="cnct" class="fcf-h3">Contact us</h3>
+
+        <form
+          id="fcf-form-id"
+          class="fcf-form-class"
+          method="post"
+          action="contact-form-process.php"
+        >
+          <div class="fcf-form-group">
+            <label id="nameUsr" for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+              <input
+                type="text"
+                id="Name"
+                name="Name"
+                class="fcf-form-control"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <label id="emailUsr" for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                class="fcf-form-control"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <label id="msgUsr" for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+              <textarea
+                id="Message"
+                name="Message"
+                class="fcf-form-control"
+                rows="6"
+                maxlength="3000"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <button
+              type="submit"
+              id="fcf-button"
+              class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div> 
+    </div>
+    <div class="bot-info-div">
+        <div class="bot-div-text">
+        <h3 id="cnctEmail">✉ Email: example@gmail.com</h1>
+        <h3 id="cnctNum" style="margin: 20px 0px 0px 45px ;">☏ Number: +032 2 203491</h3>
+        <h3 id="cnctLoc" style="margin: 22px 0px 0px 45px ;">Location: 5 sulkhan cincadze street</h3>
+        </div>
+    </div>
+  </body>
+</html>
